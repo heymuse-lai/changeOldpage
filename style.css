@@ -1,0 +1,58 @@
+
+body{
+  display: flex;
+  justify-content: center;
+
+}
+.safecard-visible{
+  width: 740px;        
+  background-image: url(./images/top_bg.gif);
+}
+.visible-title{
+  display: flex;
+  justify-content: center;
+      
+}
+.visible-sub{
+  text-align: center;  
+}
+
+.subcontext {
+  
+
+  background-image: url(./images/bg.gif);
+ font-size: 14px;
+  font-weight: 300px;
+  line-height: 22px;
+  padding: 60px;
+
+  
+}
+.subgreat{
+    background-image: url(./images/bg.gif);
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 60px;
+  
+
+    text-align: center;
+}
+.safecard-bottom{
+  background-image: url(./images/bottom_bg.gif);
+  height: 150px;
+  display: flex;
+  justify-content: center;       
+  padding: 20px;
+}
+.imgLogo{
+  padding: 15px;
+}
+.btn{
+  padding: 10px;
+  display: block;
+  margin: auto;
+
+}
+
