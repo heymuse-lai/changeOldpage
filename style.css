@@ -26,6 +26,7 @@ body{
   line-height: 22px;
   padding: 60px;
 
+
   
 }
 .subgreat{
@@ -35,8 +36,6 @@ body{
     font-weight: 300px;
     line-height: 22px;
     padding: 60px;
-  
-
     text-align: center;
 }
 .safecard-bottom{
@@ -55,4 +54,23 @@ body{
   margin: auto;
 
 }
+.ans{
+  display: block;
+  width: 160px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  color: #f50000;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: bisque;
+  cursor: pointer;
+  
+
+}
+span{
+  color: #e13333;
+  font-size: 16px;
+}
+
 
