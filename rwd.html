@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行車安全護照問答</title>
+    <script>
+    
+        console.dir(document);
+      </script>
+      <link rel="stylesheet" href="./rwdstyle.css"> 
+    
+</head>
+<body>
+    <div class="safecard-visible">
+        <div class="visible-title">
+          <img src="./images/title.gif" alt="">
+          
+        </div>
+        <div class="visible-sub">
+            <h1>開車族必備的一本手冊</h1>      
+            <h2>行車安全護照</h2>
+        </div>
+        <div class="subcontext">
+          <div>
+          <p>輪胎就像人的腳一樣，能帶者你到處去遊覽，增廣見聞，假使平時不好好的保養輪胎或是選擇了不合適的輪胎，那擁有再好的車子，也無法提昇它的價值。</p>
+          <p>現在，只要你回答下列3個問題，答對了， 就送你一本所推出的<span>「行車安全護照」</span>裡面告訴你如何保養輪胎，如何選擇輪胎，輪胎小診所等等，內容豐富，是每位開車族必備的一本手冊， 更重要的是，<span>固特異</span>還送你總共價值5100元的優惠卷，數量有限，沒有擁有 是非常可惜的。</p>
+       
+        　　<form action="./index_2.html" method="get">
+          <ul>
+            <li>輪胎是由橡膠所製造而成的嗎？	 
+              <p><input type="radio" name="1st" value="是">是 <br>
+              <input type="radio" name="1st" value="不是">不是 <br>
+              <input type="radio" name="1st" value="部分是">部分是</p>
+              <p><span class="ans" onclick="explain1Toshow()">提示</span></p>
+              <div id="explain1" >瞄一下答案
+                </div>
+                  <hr/>        
+    
+             
+            </li>
+            <li>輪胎上面的 195/55 R 15 84 V 其中的195是代表什麼意思？
+              <p><input type="radio" name="2st" value="胎寬">胎寬<br>
+                <input type="radio" name="2st" value="扁平率">扁平率<br>
+                <input type="radio" name="2st" value="載重量">載重量<br>
+    
+              </p>
+              <p><span class="ans" onclick="explain2Toshow()">提示</span></p>
+              <div id="explain2" >瞄一下答案
+                
+              </div>
+                  <hr/>        
+            </li>
+            <li>輪胎為什麼是黑色的？
+              <p><input type="radio" name="3st" value="加了黑色素">加了黑色素<br>
+                <input type="radio" name="3st" value="加了黑煙碳">加了黑煙碳<br>
+                <input type="radio" name="3st" value="橡膠是黑色的">橡膠是黑色的<br></p>
+                <p><span class="ans" onclick="explain3Toshow()">提示</span> </p>
+                <div id="explain3">瞄一下答案
+                  </div>
+                  <hr/>        
+               </li>
+    
+          </ul>
+         <p><button type="submit" value="提交" class="btn">送出資料</button></p>
+    
+         </form>
+         </div>      
+        </div>
+    
+        <div class="safecard-bottom">
+          <div class="imgLogo"><img src="./images/carlife.gif"></div>
+          <div class="imgLogo"><img src="./images/goodyear.gif"></div>
+          <div class="imgLogo"><img src="./images/seednet.gif"></div>
+      
+        </div>
+        <script src="./script.js">      
+        </script>
+    
+      
+    </div>
+    
+    
+
+    
+</body>
+</html>
