@@ -53,13 +53,14 @@ body{
       text-align: center;
   }
   .safecard-bottom{
-    height: 150px;
     display: flex;
-    justify-content: center;       
-    padding: 20px;
+    justify-content: center; 
+    flex-wrap: wrap;
+      
   }
   .imgLogo{
-    padding: 15px;
+    width: 30%;
+    text-align: center;
   }
   .btn{
     padding: 10px;
@@ -108,11 +109,24 @@ body{
     .visible-title>img{
       width: 50%;
     }
+    .ans{
+      width: 30%;
+    }
     h1,h2{
       font-size: 14px;
       line-height: 30px;
       color: #ffffff;
     }
+    .imgLogo{
+      width: 90%;
+    }
+  
 
   }
+  @media(max-width:370px){
+    .ans{
+      width: 20%;
+    }
   
+
+  }
