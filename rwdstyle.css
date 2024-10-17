@@ -95,7 +95,7 @@ body{
   @media(max-width:1250px){
     .safecard-visible{
       flex-wrap: wrap; 
-      width: 90%;
+      width: 100%;
 
     }
     h1,h2{
